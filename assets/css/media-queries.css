@@ -1,0 +1,277 @@
+
+/* Media Queries */
+
+@media(max-width: 370px){
+  /*#searchList li:nth-child(1) {*/
+    /*width: 100%*/
+  /*}*/
+  #searchList li {
+    width: 33.333333%;
+  }
+
+}
+@media(min-width: 500px){
+  .content-wrap{
+    width: 100%;
+    height: 400px;
+  }
+  .sec{
+    width: 50%;
+    float: left;
+    height: 50%;
+  }
+}
+@media(min-width: 768px){
+  .navbar-brand img {
+    display: block;
+  }
+  .modal-dialog {
+    margin: 10px auto;
+  }
+  #loginModal .modal-dialog {
+    width: 450px;
+    border-radius: 10px;
+  }
+  #main-logo{
+    margin: 20px auto 30px;
+  }
+
+  .footer-nav li {
+    float: none;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+  #locationSpace{
+    border-bottom: none;
+
+  }
+  .navigation li{
+    border-bottom: none;
+  }
+  #searchList li a{
+    font-size: 1.2em;
+  }
+  .hvr-underline-reveal {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  .sites-options li a{
+  height: auto;
+  font-size: 1.2em;
+}
+.shamra-btn{
+  min-width: 145px;
+}
+.list li:last-child{
+  border-bottom: none;
+}
+.seperator {
+  margin: 5px auto 5px ;
+  text-align: center;
+  border-top: 1px solid #ff8600;
+  width: 50%;
+}
+.margin-adjust{
+  margin:0;
+}
+.main-news a img {
+  max-height: 290px;
+  overflow: hidden;
+}
+#loginModal .modal-dialog {
+   width: 400px;
+}
+.captcha_img_container{
+  width: 49%;
+  display: inline-block;
+  text-align: right;
+}
+.captcha_input{
+  width: 49%;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+  .april-fool-section {
+    width: 65%;
+  }
+  .main-content{
+    margin: 0 5%;
+  }
+  .navbar.main li a {
+    padding: 15px 4px;
+  }
+  .nav>li>a {
+    font-size: 1em;
+  }
+
+}
+
+/* Navbar collapse at 991px */
+@media (max-width: 991px) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+    float: none;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .collapse.in{
+    display:block !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: auto !important;
+  }
+}
+/* ./Navbar collapse at 991px */
+
+
+@media(min-width: 992px){
+  #main-logo{
+    margin: 20px auto 30px;
+  }
+
+  .navigation li{
+    border-bottom: none;
+  }
+  #searchList li a{
+    font-size: 1.2em;
+  }
+  .hvr-underline-reveal {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+  }
+  .list li{
+ /* min-height: 98px;
+  display: table;*/
+  }
+  .list li p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+  }
+  .list li .badge {
+    margin-top: 10px;
+    background: #DADADA;
+    color: #333;
+  }
+
+  #celebrity {
+  max-height: 300px;
+  min-height: 300px;
+  margin-top: 0;
+
+  font-size: 1.3rem;
+  position: relative;
+}
+
+#celebrity .img {
+  position: relative;
+}
+#celebrity .caption{
+   overflow: hidden;
+   height: 120px;
+}
+#celebrity .img .title {
+  position: absolute;
+    padding-right: 5px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    bottom: 0;
+    color: white;
+    text-align: center;
+}
+#celebrity .img .title a{
+  color: #fff;
+}
+#celebrity .controlls {
+  position: absolute;
+  bottom:0;
+  right: 15%;
+  text-align: center;
+
+}
+#celebrity .controlls span {
+  margin: 0 20px;
+  cursor: pointer;
+  opacity: 0.4;
+}
+#celebrity .controlls span:hover {
+   opacity: 1;
+}
+
+.ad{
+  margin-top: 30px;
+}
+.ad img{
+  margin: 5px auto;
+  /*width: 80px;*/
+}
+.min-weather, .min-widget {
+  /*position: fixed;*/
+}
+
+  .april-fool-section {
+    width: 55%;
+  }
+
+  #aside-right,
+  #aside-left{
+    display: block;
+  }
+  .main-content{
+    margin: 0 20%;
+  }
+  .navbar.main li a {
+    padding: 15px 8px;
+  }
+  .nav>li>a {
+    font-size: 1.1em;
+  }
+}
+@media(min-width: 1200px){
+  .min-weather,.min-widget{
+    font-size: 1.2em;
+   /* min-height: 96px;*/
+    line-height: 1.8em;
+  }
+  #main-logo{
+   margin: 20px auto 10px;
+    width: 50%;
+  }
+
+  #searchList li a{
+    font-size: 1em;
+  }
+  .navigation li{
+    border-bottom: none;
+  }
+}
