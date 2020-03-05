@@ -132,22 +132,46 @@
          <div class="seperator"></div>
       </section>
    </div>
-   <div id="aside-right">
-      <div class="well min-weather hidden-xs hidden-sm">
-         <a href="/weather/" class="weather" data-placement="top" data-toggle="tooltip" title="" target="_blank" data-original-title="عرض الطقس في باقي المدن">
-         <span class="">21<sup>°</sup></span>
-         <span class=""> <img id="main-weather-img" class=""  src=<?php echo base_url() . "/assets/icons/png-white/cloud.png" ?>  width="30px"></span>
-         <span>دمشق</span>
-         </a>
-      </div>
-      <div id="translate-widget" class="hidden-xs hidden-sm">
-         <div id="transWidgetHeader" class="text-center">
-            <img class="" src=<?php echo base_url() . "/assets/icons/png-white/translogo-3.png" ?> alt="">
-            <span>الترجمة من شمرا</span>
-         </div>
 
-      </div>
-   </div>
+
+   <div id="aside-right">
+                                            <div class="well min-weather hidden-xs hidden-sm">
+                    <a href="/weather/" class="weather" data-placement="top" data-toggle="tooltip" title="" target="_blank" data-original-title="عرض الطقس في باقي المدن">
+                        <span class="">22<sup>°</sup></span>
+                        <span class=""> <img id="main-weather-img" class="" src="<?php echo base_url() . "/assets/icons/png-white/cloud.png" ?>" width="30px"></span>
+                        <span>دمشق</span>
+                    </a>
+                </div>
+
+            <div id="translate-widget" class="hidden-xs hidden-sm">
+                <div id="transWidgetHeader" class="text-center">
+                    <img src="<?php echo base_url() . "/assets/icons/png-white/translogo-3.png" ?>" alt="">
+                    <span>الترجمة من شمرا</span>
+                </div>
+
+                <form action="/translate/">
+                    <input id="translateSrc" type="text" name="src" value="en" hidden="true">
+                    <input id="translateTgt" type="text" name="tgt" value="ar" hidden="true">
+
+                    <div class="btn-group btn-group-justified">
+                        <div class="btn-group">
+                            <button id="toArabic" type="button" class="btn btn-default active" disabled="true">عربي
+                            </button>
+                        </div>
+                        <div class="btn-group">
+                            <button id="toEnglish" type="button" class="btn btn-default">English</button>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="translateText" type="text" name="text" class="form-control" rows="5" placeholder="أدخل النص بالإنكليزية..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input class="btn btn-default shamra-btn btn-block" id="translation-form-button" type="submit" disabled="disabled" value="اختبر الترجمة!">
+                    </div>
+                </form>
+            </div>
+
+        </div>
 </div>
 <?php $this->load->view('footer'); ?>
   	  </body>

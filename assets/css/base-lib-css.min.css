@@ -8943,13 +8943,13 @@ float: right!important
 *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
 */
 
-@font-face {
+/* @font-face {
 font-family: FontAwesome;
-src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
-font-weight: 400;
+src: url(../fonts/css/fontawesome-webfont.eot?v=4.7.0);
+src: url(../fonts/css/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(../fonts/css/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+font-weight: 400;css
 font-style: normal
-}
+} */
 
 .fa {
 display: inline-block;
@@ -14989,7 +14989,7 @@ transition-property: transform
 
 .hvr-icon-back:before,
 .hvr-icon-forward:before {
-font-family: FontAwesome;
+font-family: Droid Arabic Kufi;
 -webkit-transition-property: transform
 }
 
@@ -15063,7 +15063,7 @@ transition-timing-function: ease-out
 .hvr-icon-grow:before,
 .hvr-icon-spin:before {
 right: 1em;
-font-family: FontAwesome;
+font-family: Droid Arabic Kufi;
 -webkit-transition-property: transform
 }
 
@@ -15114,7 +15114,7 @@ content: "\f01a";
 position: absolute;
 right: 1em;
 padding: 0 1px;
-font-family: FontAwesome;
+font-family: Droid Arabic Kufi;
 -webkit-transform: translateZ(0);
 transform: translateZ(0)
 }
@@ -15170,7 +15170,7 @@ content: "\f01b";
 position: absolute;
 right: 1em;
 padding: 0 1px;
-font-family: FontAwesome;
+font-family: Droid Arabic Kufi;
 -webkit-transform: translateZ(0);
 transform: translateZ(0)
 }
@@ -15257,7 +15257,7 @@ position: absolute;
 right: 1em;
 opacity: 1;
 padding: 0 1px;
-font-family: FontAwesome;
+font-family: Droid Arabic Kufi;
 -webkit-transform: translateZ(0);
 transform: translateZ(0)
 }
@@ -17166,7 +17166,7 @@ html,
 input,
 select,
 textarea {
-font-family: Droid_Arabic_Kufi, arial, helvetica
+font-family:  'Droid Arabic Kufi', serif
 }
 
 #see-more {
@@ -17524,12 +17524,12 @@ border-color: #ff8600;
 color: #ff8600
 }
 
-@font-face {
+/* @font-face {
 font-family: Droid_Arabic_Kufi;
 font-style: normal;
 font-weight: 400;
-src: url(../../fonts/DroidKufi/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'), url(../../fonts/DroidKufi/DroidKufi-Regular.woff) format('woff'), url(../../fonts/DroidKufi/DroidKufi-Regular.ttf) format('truetype')
-}
+src: url(../assets/css/fonts/DroidKufi-Regular.eot) format('embedded-opentype'), url(../assets/css/fonts/DroidKufi-Regular.woff) format('woff'), url(../../assets/css/fonts/DroidKufi-Regular.ttf) format('truetype')
+} */
 
 #login_form {
 padding: 10px 20px;
