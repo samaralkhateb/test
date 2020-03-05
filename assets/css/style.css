@@ -1,5 +1,5 @@
 /* @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css); */
-/* body{
+  body{
   font-family: 'Droid Arabic Kufi', serif;
   direction: rtl;
   font-size: 14px;
@@ -7,11 +7,11 @@
   color: #333;
 }
 
-.container-fluid{
+/* .container-fluid{
   padding: 50px;
 
-}
-
+} */
+/*
 .my_nav {
   background-color: #2c9e46!important;
   text-align: right!important;
