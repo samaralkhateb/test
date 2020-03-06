@@ -35,28 +35,28 @@
       <div class="text-center">
          <img class="img-responsive" id="main-logo" src=<?php echo base_url() . "assets/images/shamra.svg" ?> >
          <ul class="nav nav-pills search-nav" id="searchList">
-            <li id="web" data-url="/search" role="presentation" class="search-tab active">
-               <a class="hvr-underline-reveal" data-toggle="pill">الويب </a>
+            <li id="web"  role="presentation" class="search-tab">
+               <a class="hvr-underline-reveal"  href=<?php echo base_url() . "index.php/search" ?> >الويب </a>
             </li>
-            <li id="news" class="search-tab" data-url="/search/news" role="presentation">
-               <a class="hvr-underline-reveal" data-toggle="pill">الأخبار </a>
+            <li id="news" class="search-tab"   role="presentation">
+               <a class="hvr-underline-reveal" href=<?php echo base_url() . "index.php/search/news" ?> >الأخبار </a>
             </li>
-            <li id="facebook" class="search-tab" data-url="/search/facebook" role="presentation">
-               <a class="hvr-underline-reveal" data-toggle="pill">تريندز </a>
+            <li id="trends" class="search-tab"   role="presentation">
+               <a class="hvr-underline-reveal" href="<?php echo base_url() . "index.php/search/trends" ?>" >تريندز </a>
             </li>
-            <li id="places" class="search-tab" data-url="/search/places" role="presentation">
-               <a class="hvr-underline-reveal" data-toggle="pill">الأماكن</a>
+            <li id="places" class="search-tab"  role="presentation">
+               <a class="hvr-underline-reveal"  href="<?php echo base_url() . "index.php/search/places" ?>" >الأماكن</a>
             </li>
-            <li id="bazaar" class="search-tab" data-url="/search/bazaar" role="presentation">
-               <a class="hvr-underline-reveal" data-toggle="pill">بازار </a>
+            <li id="bazaar" class="search-tab" role="presentation">
+               <a class="hvr-underline-reveal"  href="<?php echo base_url() . "index.php/search/bazaar" ?>"  >بازار </a>
             </li>
-            <li id="academic" class="search-tab" data-url="/search/academia" role="presentation">
-               <a class="hvr-underline-reveal" data-toggle="pill">أكاديميا </a>
+            <li id="academia" class="search-tab" role="presentation">
+               <a class="hvr-underline-reveal" href="<?php echo base_url() . "index.php/search/academia" ?>" >أكاديميا </a>
             </li>
          </ul>
          <form id="home_form" action="/search" method="get">
             <div class="form-group">
-               <input type="text" name="q" id="query" class="query form-control-" placeholder="إبحث في شمرا ويب">
+               <input type="text" name="q" id="query" class="query form-control" placeholder="إبحث في شمرا ويب">
             </div>
             <div class="form-group text-center">
                <button id="shamra-search" class="btn btn-default  shamra-btn">البحث <i class="fa fa-search"></i></button>
@@ -173,6 +173,10 @@
 
         </div>
 </div>
+
+
 <?php $this->load->view('footer'); ?>
+<script type="text/javascript" src="<?php echo base_url() ."assets/js/home.js"?>"></script>
+
   	  </body>
 </html>
