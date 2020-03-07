@@ -25193,3 +25193,7 @@ b {
 		margin: 0 auto
 	}
 }
+
+input.box-input.sh-search {
+    font-size: 1.4em;
+}

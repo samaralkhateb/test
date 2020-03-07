@@ -1,4 +1,6 @@
 
    $(document).ready(function() {
-     $("#web").addClass("active"); 
+     $("#web").addClass("active");
+
+
    });

@@ -67,7 +67,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               <a class="navbar-brand" href="/">
+               <a class="navbar-brand" href="<?php echo base_url() . "index.php/home" ?>">
                     <img class="img-responsive" src="<?php echo base_url() . "/assets/icons/png-white/shamra.svg" ?>" height="40px" alt="shamra-logo">
                 </a>
             </div>

@@ -8,8 +8,7 @@
                   <img  class="min-logo" src="<?php echo base_url() . "assets/images/shamra.svg" ?>">
                 </span>
               <div class="">
-                <!-- <img class="img-responsive min-logo" id="search-logo" src=<?php echo base_url() . "assets/images/shamra.svg" ?> > -->
-                <form class="search-box ng-untouched ng-pristine ng-valid" method="GET" novalidate="">
+                 <form class="search-box ng-untouched ng-pristine ng-valid" method="GET" novalidate="">
                     <input aria-label="search" autocomplete="off" class="box-input sh-search" name="search" placeholder="أبحث عن ..." type="search">
                     <span class="box-clear"><i _ngcontent-c2="" aria-hidden="true" class="fa fa-times fa-lg"></i></span>
                     <button aria-label="search" class="box-submit" name="search" type="submit">
@@ -41,26 +40,4 @@
             </div>
         </div>
                 </div>
-    <!-- </div>
-
-</div> -->
-        <router-outlet _ngcontent-c0=""></router-outlet>
-        <app-search _nghost-c5="">
-            <div _ngcontent-c5="" class="mt-1 container search-container">
-                <!---->
-                <!---->
-                <!---->
-                <!---->
-                <div _ngcontent-c5="" class="row">
-                    <div _ngcontent-c5="" class="col-12 col-md-9 col-lg-8">
-                        <div _ngcontent-c5="" class="container--result">
-                            <!---->
-                        </div>
-                        <!---->
-                    </div>
-                    <div _ngcontent-c5="" class="col-5"></div>
-                </div>
-                <!---->
-                <!---->
-            </div>
-        </app-search>
+              

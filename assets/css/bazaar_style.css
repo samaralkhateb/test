@@ -1,0 +1,148 @@
+.container-more{
+   text-align:center;
+   clear:both
+}
+.more-btn {
+    background-color: #00a550;
+    border-radius: 30px;
+    padding: .4em 2.4em;
+    color: white;
+}
+.more-btn i{
+   padding-right:.2em;
+   vertical-align:sub
+}
+
+.container-result {
+    font-size: 16px;
+}
+.mt-1, .my-1 {
+    margin-top: .25rem!important;
+}
+
+.result{
+    width: 14em;
+    float: right;
+    margin: .4em .5em;
+}
+.card{
+    height: 18em;
+}
+.card {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border: 0;
+    font-weight: 400;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+.card-img{
+    background-image: linear-gradient(to bottom right,#888,#ddd);
+    height: calc(100% - 5.7em);
+    position: relative;
+}
+.view {
+    position: relative;
+    overflow: hidden;
+    cursor: default;
+    height: 182px;
+}
+.view img, .view video {
+    position: relative;
+    display: block;
+}
+.img-fluid, .modal-dialog.cascading-modal.modal-avatar .modal-header, .video-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}a, a:not([href]):not([tabindex]) {
+    color: #00a550;
+}
+a {
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+.view .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card.card-body{
+    padding: .5em .5em 1.4em;
+    max-height: 7em;
+    max-height: 8.4em;
+    overflow: hidden;
+    position: relative;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-info{
+    font-size: .8em;
+    color: #888;
+    border-bottom: .1em solid #ddd;
+}
+.price{
+    position: absolute;
+    left: .2em;
+    background-color: #fff;
+    padding-right: .2em;
+}
+.card .card-body h1, .card .card-body h2, .card .card-body h3, .card .card-body h4, .card .card-body h5, .card .card-body h6 {
+    font-weight: 400;
+}
+
+.card-title{
+    font-size: .8576em;
+    padding-top: .3em;
+}
+.card-title {
+    margin-bottom: .75rem;
+}.card-extra{
+    position: absolute;
+    bottom: 0;
+    left: .6em;
+    background-color: #fff;
+    right: .6em;
+    font-size: .7em;
+    color: #888;
+}
+.card-time{
+    float: left;
+}
+a, a:not([href]):not([tabindex]) {
+    color: #00a550;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
